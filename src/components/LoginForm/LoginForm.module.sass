@@ -1,0 +1,52 @@
+
+.container
+    background-color: #3ea9f5
+    height: calc(100vh - 71px)
+    text-align: center
+    h1
+        color: white
+        font-size: 32px
+        font-weight: 600
+        letter-spacing: 0px
+
+.wrapper
+    max-width: 1000px
+    margin: 0 auto
+
+.inputLoginForm
+    padding: 20px 20px
+    border-radius: 5px
+    margin: 10px 0
+    border-style: none
+
+.inpInValid
+    border: 3px solid red
+
+.inpValid
+    border: 3px solid green
+
+.loginForm
+    display: flex
+    flex-direction: column
+    max-width: 500px
+    margin: 70px auto 20px
+
+.inpBtnSubmit
+    padding: 20px 20px
+    border-radius: 5px
+    border-style: none
+    margin: 10px 0
+    background-color: #28d2d0
+    color: #fff
+    font-size: 16px
+    font-weight: 600
+
+.inpError
+    position: relative
+    font-size: 10px
+    font-weight: 700
+    &::before
+        content: url('./alert-rhombus-outline.svg')
+        position: absolute
+        top: -54px
+        right: 29px
